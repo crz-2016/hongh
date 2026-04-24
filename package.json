@@ -5,7 +5,7 @@
   "scripts": {
     "build": "next build && tsup src/server.ts --format cjs --platform node --target node20 --outDir dist --no-splitting --no-minify",
     "dev": "tsx watch src/server.ts",
-    "preinstall": "npx only-allow pnpm",
+    "preinstall": "node -e \"if (!process.env.CI && !process.env.VERCEL) require('child_process').execSync('npx only-allow pnpm', { stdio: 'inherit' })\"",
     "lint": "eslint",
     "start": "node dist/server.js",
     "ts-check": "tsc -p tsconfig.json"
