@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <defs>
+    <linearGradient id="hairGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513"/>
+      <stop offset="100%" style="stop-color:#5D3A1A"/>
+    </linearGradient>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFE4E1"/>
+      <stop offset="100%" style="stop-color:#FFF0F5"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="400" height="500" rx="20" fill="url(#bgGrad2)"/>
+  
+  <!-- 头发后部 -->
+  <ellipse cx="200" cy="180" rx="120" ry="130" fill="url(#hairGrad2)"/>
+  
+  <!-- 头发侧边 -->
+  <path d="M80 180 Q50 250 70 350 L90 350 Q80 250 100 180 Z" fill="url(#hairGrad2)"/>
+  <path d="M320 180 Q350 250 330 350 L310 350 Q320 250 300 180 Z" fill="url(#hairGrad2)"/>
+  
+  <!-- 脸 -->
+  <ellipse cx="200" cy="220" rx="90" ry="100" fill="#FFE4C4"/>
+  
+  <!-- 眉毛（愤怒的V字） -->
+  <path d="M130 185 L165 195" stroke="#5D3A1A" stroke-width="5" stroke-linecap="round"/>
+  <path d="M270 185 L235 195" stroke="#5D3A1A" stroke-width="5" stroke-linecap="round"/>
+  
+  <!-- 眼睛（眯眼表示生气） -->
+  <path d="M145 215 Q160 205 175 215" stroke="#5D3A1A" stroke-width="3" fill="none"/>
+  <path d="M225 215 Q240 205 255 215" stroke="#5D3A1A" stroke-width="3" fill="none"/>
+  
+  <!-- 愤怒的眉毛（向上挑） -->
+  <path d="M125 175 L140 165" stroke="#5D3A1A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M275 175 L260 165" stroke="#5D3A1A" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- 脸红的愤怒红晕 -->
+  <ellipse cx="120" cy="235" rx="25" ry="15" fill="#FF6B6B" opacity="0.5"/>
+  <ellipse cx="280" cy="235" rx="25" ry="15" fill="#FF6B6B" opacity="0.5"/>
+  
+  <!-- 嘴巴（不满的撅嘴） -->
+  <path d="M170 275 Q200 265 230 275" stroke="#E57373" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- 汗水/愤怒符号 -->
+  <text x="280" y="160" font-size="30">💢</text>
+  <text x="100" y="140" font-size="24">😤</text>
+  
+  <!-- 愤怒线条 -->
+  <g stroke="#FF4444" stroke-width="2" opacity="0.6">
+    <line x1="85" y1="170" x2="70" y2="155"/>
+    <line x1="95" y1="160" x2="80" y2="145"/>
+    <line x1="315" y1="170" x2="330" y2="155"/>
+    <line x1="305" y1="160" x2="320" y2="145"/>
+  </g>
+  
+  <!-- 身体/衣服 -->
+  <path d="M120 320 Q100 350 110 420 L290 420 Q300 350 280 320 Q200 340 120 320" fill="#FF69B4"/>
+  
+  <!-- 叉腰动作 -->
+  <ellipse cx="90" cy="380" rx="30" ry="35" fill="#FFE4C4"/>
+  <ellipse cx="310" cy="380" rx="30" ry="35" fill="#FFE4C4"/>
+  
+  <!-- 装饰心形 -->
+  <path transform="translate(320, 100) scale(0.5)" fill="#FF1493" opacity="0.7" d="M30 10 C30 5 25 0 20 0 C10 0 10 10 10 10 C10 10 10 20 20 30 C30 20 30 10 30 10"/>
+  <path transform="translate(60, 80) scale(0.4)" fill="#FF1493" opacity="0.5" d="M30 10 C30 5 25 0 20 0 C10 0 10 10 10 10 C10 10 10 20 20 30 C30 20 30 10 30 10"/>
+  
+  <!-- 气泡 -->
+  <ellipse cx="320" cy="50" rx="70" ry="40" fill="#fff" stroke="#FF69B4" stroke-width="2"/>
+  <path d="M280 80 L260 100 L290 85" fill="#fff" stroke="#FF69B4" stroke-width="2"/>
+  <text x="275" y="58" font-size="14" fill="#FF69B4" font-weight="bold">哼！</text>
+</svg>

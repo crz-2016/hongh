@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFB6C1"/>
+      <stop offset="100%" style="stop-color:#FF69B4"/>
+    </linearGradient>
+    <linearGradient id="hairGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A3728"/>
+      <stop offset="100%" style="stop-color:#2D1F14"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景圆形 -->
+  <circle cx="100" cy="100" r="95" fill="url(#bgGrad)" stroke="#fff" stroke-width="4"/>
+  
+  <!-- 头发 -->
+  <ellipse cx="100" cy="75" rx="55" ry="50" fill="url(#hairGrad)"/>
+  <path d="M45 75 Q30 90 45 120 Q50 100 55 90 Z" fill="url(#hairGrad)"/>
+  <path d="M155 75 Q170 90 155 120 Q150 100 145 90 Z" fill="url(#hairGrad)"/>
+  
+  <!-- 刘海 -->
+  <path d="M55 65 Q70 80 85 65 Q100 80 115 65 Q130 80 145 65 L145 55 Q100 45 55 55 Z" fill="url(#hairGrad)"/>
+  
+  <!-- 脸 -->
+  <ellipse cx="100" cy="100" rx="45" ry="42" fill="#FFE4C4"/>
+  
+  <!-- 眉毛（生气的V字形） -->
+  <path d="M65 85 L80 92" stroke="#4A3728" stroke-width="3" stroke-linecap="round"/>
+  <path d="M135 85 L120 92" stroke="#4A3728" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- 眼睛（愤怒的眯眼） -->
+  <ellipse cx="78" cy="100" rx="10" ry="6" fill="#fff"/>
+  <ellipse cx="122" cy="100" rx="10" ry="6" fill="#fff"/>
+  <circle cx="78" cy="100" r="4" fill="#4A3728"/>
+  <circle cx="122" cy="100" r="4" fill="#4A3728"/>
+  
+  <!-- 眼睫毛（上挑表示愤怒） -->
+  <path d="M68 93 L72 88" stroke="#4A3728" stroke-width="2" stroke-linecap="round"/>
+  <path d="M88 93 L84 88" stroke="#4A3728" stroke-width="2" stroke-linecap="round"/>
+  <path d="M112 93 L116 88" stroke="#4A3728" stroke-width="2" stroke-linecap="round"/>
+  <path d="M132 93 L128 88" stroke="#4A3728" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- 脸红的愤怒红晕 -->
+  <ellipse cx="60" cy="108" rx="10" ry="6" fill="#FF6B6B" opacity="0.6"/>
+  <ellipse cx="140" cy="108" rx="10" ry="6" fill="#FF6B6B" opacity="0.6"/>
+  
+  <!-- 嘴巴（不满的撅嘴） -->
+  <path d="M85 125 Q100 120 115 125" stroke="#E57373" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- 腮红/愤怒标记 -->
+  <ellipse cx="60" cy="115" rx="8" ry="5" fill="#FF6B6B" opacity="0.4"/>
+  <ellipse cx="140" cy="115" rx="8" ry="5" fill="#FF6B6B" opacity="0.4"/>
+  
+  <!-- 愤怒符号 -->
+  <text x="150" y="60" font-size="20" fill="#FF4444" font-weight="bold">💢</text>
+  
+  <!-- 心形装饰 -->
+  <path d="M165 140 C165 135 160 130 155 135 C150 130 145 135 145 140 C145 150 155 155 155 155 C155 155 165 150 165 140" fill="#FF69B4" opacity="0.8"/>
+</svg>

@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF0F5"/>
+      <stop offset="100%" style="stop-color:#FFE4E1"/>
+    </linearGradient>
+    <linearGradient id="hairGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A3728"/>
+      <stop offset="100%" style="stop-color:#2D1F14"/>
+    </linearGradient>
+    <linearGradient id="hairGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3D2B1F"/>
+      <stop offset="100%" style="stop-color:#1A1209"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="400" height="400" rx="20" fill="url(#bgGrad3)"/>
+  
+  <!-- 漂浮的心形 -->
+  <g fill="#FF69B4" opacity="0.6">
+    <path transform="translate(50, 50) scale(0.5)" d="M30 10 C30 5 25 0 20 0 C10 0 10 10 10 10 C10 10 10 20 20 30 C30 20 30 10 30 10"/>
+    <path transform="translate(320, 80) scale(0.6)" d="M30 10 C30 5 25 0 20 0 C10 0 10 10 10 10 C10 10 10 20 20 30 C30 20 30 10 30 10"/>
+    <path transform="translate(80, 300) scale(0.4)" d="M30 10 C30 5 25 0 20 0 C10 0 10 10 10 10 C10 10 10 20 20 30 C30 20 30 10 30 10"/>
+    <path transform="translate(300, 320) scale(0.5)" d="M30 10 C30 5 25 0 20 0 C10 0 10 10 10 10 C10 10 10 20 20 30 C30 20 30 10 30 10"/>
+  </g>
+  
+  <!-- 男生（左边） -->
+  <!-- 头发 -->
+  <ellipse cx="140" cy="150" rx="55" ry="50" fill="url(#hairGrad4)"/>
+  <path d="M85 150 Q70 160 80 180" fill="url(#hairGrad4)"/>
+  <path d="M195 150 Q210 160 200 180" fill="url(#hairGrad4)"/>
+  
+  <!-- 脸 -->
+  <ellipse cx="140" cy="165" rx="45" ry="48" fill="#FFE4C4"/>
+  
+  <!-- 眼睛（开心的眯眼） -->
+  <path d="M120 160 Q130 155 140 160" stroke="#2D1F14" stroke-width="2" fill="none"/>
+  <path d="M140 160 Q150 155 160 160" stroke="#2D1F14" stroke-width="2" fill="none"/>
+  
+  <!-- 微笑 -->
+  <path d="M125 185 Q140 195 155 185" stroke="#E57373" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- 脸红的开心红晕 -->
+  <ellipse cx="110" cy="175" rx="12" ry="8" fill="#FFB6C1" opacity="0.6"/>
+  <ellipse cx="170" cy="175" rx="12" ry="8" fill="#FFB6C1" opacity="0.6"/>
+  
+  <!-- 身体 -->
+  <path d="M100 210 Q90 240 95 280 L185 280 Q190 240 180 210 Q140 225 100 210" fill="#4169E1"/>
+  
+  <!-- 领口 -->
+  <path d="M120 210 L140 235 L160 210" fill="#FFE4C4"/>
+  
+  <!-- 手（展开） -->
+  <ellipse cx="75" cy="240" rx="20" ry="25" fill="#FFE4C4"/>
+  <ellipse cx="205" cy="240" rx="20" ry="25" fill="#FFE4C4"/>
+  
+  <!-- 女生（右边） -->
+  <!-- 头发 -->
+  <ellipse cx="260" cy="145" rx="60" ry="55" fill="url(#hairGrad3)"/>
+  <path d="M200 150 Q180 170 195 200 Q210 180 215 160 Z" fill="url(#hairGrad3)"/>
+  <path d="M320 150 Q340 170 325 200 Q310 180 305 160 Z" fill="url(#hairGrad3)"/>
+  
+  <!-- 脸 -->
+  <ellipse cx="260" cy="170" rx="48" ry="50" fill="#FFE4C4"/>
+  
+  <!-- 眼睛（开心的眯眼） -->
+  <path d="M238 165 Q248 160 258 165" stroke="#4A3728" stroke-width="2" fill="none"/>
+  <path d="M262 165 Q272 160 282 165" stroke="#4A3728" stroke-width="2" fill="none"/>
+  
+  <!-- 腮红 -->
+  <ellipse cx="228" cy="180" rx="12" ry="8" fill="#FFB6C1" opacity="0.7"/>
+  <ellipse cx="292" cy="180" rx="12" ry="8" fill="#FFB6C1" opacity="0.7"/>
+  
+  <!-- 开心的嘴巴 -->
+  <path d="M245 195 Q260 210 275 195" stroke="#E57373" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- 身体 -->
+  <path d="M215 220 Q205 250 210 290 L310 290 Q315 250 305 220 Q260 235 215 220" fill="#FF69B4"/>
+  
+  <!-- 领口蝴蝶结 -->
+  <circle cx="260" cy="225" r="8" fill="#FF1493"/>
+  <path d="M252 225 L240 220 L252 230 Z" fill="#FF1493"/>
+  <path d="M268 225 L280 220 L268 230 Z" fill="#FF1493"/>
+  
+  <!-- 举起的手 -->
+  <ellipse cx="320" cy="200" rx="18" ry="22" fill="#FFE4C4"/>
+  <ellipse cx="200" cy="200" rx="18" ry="22" fill="#FFE4C4"/>
+  
+  <!-- 中间的大爱心 -->
+  <path transform="translate(200, 300) scale(1.5)" fill="#FF1493" d="M30 10 C30 5 25 0 20 0 C10 0 10 10 10 10 C10 10 10 20 20 30 C30 20 30 10 30 10">
+    <animate attributeName="transform" type="scale" values="1.5;1.6;1.5" dur="1s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- 小爱心装饰 -->
+  <g fill="#FFB6C1" opacity="0.8">
+    <circle cx="180" cy="100" r="5"/>
+    <circle cx="280" cy="90" r="4"/>
+    <circle cx="100" cy="180" r="6"/>
+    <circle cx="300" cy="170" r="5"/>
+  </g>
+  
+  <!-- 幸福的光芒 -->
+  <g stroke="#FFD700" stroke-width="2" opacity="0.5">
+    <line x1="200" y1="80" x2="200" y2="60"/>
+    <line x1="170" y1="95" x2="155" y2="80"/>
+    <line x1="230" y1="95" x2="245" y2="80"/>
+    <line x1="160" y1="130" x2="140" y2="130"/>
+    <line x1="240" y1="130" x2="260" y2="130"/>
+  </g>
+  
+  <!-- 开心符号 -->
+  <text x="120" y="100" font-size="24" opacity="0.7">✨</text>
+  <text x="290" y="110" font-size="20" opacity="0.7">✨</text>
+</svg>
